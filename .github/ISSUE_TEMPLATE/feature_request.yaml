@@ -1,0 +1,30 @@
+name: "\U00002728 Feature request"
+description: Suggest an idea for this project
+title: Add a name of the feature here
+labels: 
+ - feature
+body:       
+ - type: textarea
+   id: description
+   attributes:
+     label: Feature overview
+     description: Link to relevant docs such as Functional Design.
+ - type: dropdown
+   id: task
+   attributes:
+     label: Tasks
+     description: This section breaks down the tasks required to complete the feature. The tasks are split between the functional teams - Design, Front End Build, Back End Build and Testing.
+     options:
+       - Design Task
+       - Front End Build Task
+       - Back End Build Task
+       - Test Task
+ - type: textarea
+   id: tasks
+   attributes:
+     label: Task description
+ - type: textarea
+   id: additional
+   attributes:
+     label: Additional Context
+     description: Add any other context or details about the feature request here.
