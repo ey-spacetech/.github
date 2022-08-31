@@ -1,5 +1,5 @@
 name: "\U0001F4DD Task"
-description: Create a task.
+description: Create a task
 title: Add your task name here
 labels: 
  - back-end, design, front-end, test
