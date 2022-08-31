@@ -1,0 +1,21 @@
+name: "\U00002728 Documentation"
+description: Create or update documentation
+title: Add a documentation title here
+labels: 
+ - documentation
+body:       
+ - type: textarea
+   id: description
+   attributes:
+     label: Describe the documentation
+     description: A clear and concise description of what the documentation is about.
+ - type: textarea
+   id: references
+   attributes:
+     label: Describe the update
+     description: Description of the update, e.g. change or a new addition.
+ - type: textarea
+   id: additional
+   attributes:
+     label: Additional Context
+     description: Add any other context or details about the documentation here.
