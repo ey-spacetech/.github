@@ -1,0 +1,28 @@
+name: "\U0001F4DD Task"
+description: Create a task.
+title: Add your task name here
+labels: 
+ - back-end, design, front-end, test
+body:
+       
+ - type: textarea
+   id: description
+   attributes:
+     label: Describe your task
+     description: A clear and concise description of what needs to be done.
+   validations:
+     required: true
+ - type: textarea
+   id: references
+   attributes:
+     label: References
+     description: Add relevant design and technical design links.
+     placeholder: |
+      *  
+ - type: textarea
+   id: additional
+   attributes:
+     label: Additional Context
+     description: Add any other context or details about the task request here.
+     placeholder: |
+       *
