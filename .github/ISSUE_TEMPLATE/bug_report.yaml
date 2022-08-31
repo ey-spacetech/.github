@@ -1,0 +1,42 @@
+name: "\U0001F41B Bug Report Test"
+description: Create a report to help us improve if something isn't working as expected.
+title: Oops looks like there is an issue
+labels: 
+ - bug
+body:
+ - type: markdown
+   attributes:
+     value: |
+       Thanks for taking the time to fill out this bug report!
+       
+ - type: textarea
+   id: description
+   attributes:
+     label: Describe the bug
+     description: A clear and concise description of what the bug is and what you expected to happen.
+   validations:
+     required: true
+ - type: textarea
+   id: steps
+   attributes:
+     label: To Reproduce
+     description: Steps to reproduce the behavior.
+     placeholder: |
+       * Go to '...'
+       * Click on '....'
+       * Scroll down to '....'
+       * See error
+ - type: textarea
+   id: behavior
+   attributes:
+     label: Expected behavior
+     description: A clear and concise description of what you expected to happen
+     placeholder: |
+      *  
+ - type: textarea
+   id: additional
+   attributes:
+     label: Additional Contenxt
+     description: Add any other context or details about the problem here, e.g. working environment [e.g. dev, tst, prd]
+     placeholder: |
+       *
