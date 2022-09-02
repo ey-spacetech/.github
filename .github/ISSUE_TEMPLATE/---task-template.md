@@ -2,7 +2,7 @@
 name: "\U0001F4DD Task template"
 about: Describe this issue template's purpose here.
 title: TASK
-labels: back-end, design, front-end, test
+labels: ''
 assignees: ''
 
 ---
