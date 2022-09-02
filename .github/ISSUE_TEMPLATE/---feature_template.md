@@ -15,9 +15,9 @@ This section breaks down the tasks required to complete the feature. The tasks a
 
 ### Design tasks
 - [ ] example design task
-### Front End Build Task
+### Front End Build Tasks
 - [ ] example front-end task
-### Back End Build Task
+### Back End Build Tasks
 - [ ] example back-end task
 ### Test Tasks
 - [ ] example test task
